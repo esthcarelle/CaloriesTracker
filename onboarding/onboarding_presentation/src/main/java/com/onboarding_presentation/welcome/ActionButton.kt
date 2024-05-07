@@ -1,4 +1,11 @@
 package com.onboarding_presentation.welcome
 
-class ActionButton {
+import androidx.compose.runtime.Composable
+
+
+@Composable
+fun ActionButton(
+    text: String,
+    onClick: () -> Unit
+) {
 }
